@@ -24,7 +24,7 @@ public class DataListProvider {
         result[0] = r.nextInt(max - min) - min;
         for (int i = 1; i < size; i++) {
             result[i] = r.nextInt(2 * maxSpeed) - maxSpeed + result[i - 1];
-            while (result[i] < 0) {
+            while (result[i] < min || result[i] > max) {
                 result[i] = r.nextInt(2 * maxSpeed) - maxSpeed + result[i - 1];
             }
         }
