@@ -25,7 +25,7 @@ public class RemotePictureProvider {
 
     public static String getPhotoUrl(int position) {
         String result = url;
-        switch (position / 10) {
+        switch (position / 9) {
             case 0:
                 result += "/sports";
                 break;
@@ -42,7 +42,7 @@ public class RemotePictureProvider {
                 result += "/nature";
                 break;
         }
-        result += "/" + String.valueOf((position) % 10);
+        result += "/" + String.valueOf((position) % 9);
         return result;
     }
 
