@@ -1,4 +1,4 @@
-package fr.afaucogney.android.fakear;
+package fr.afaucogney.android.fakearapp;
 
 import org.junit.Test;
 

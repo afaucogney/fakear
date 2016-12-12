@@ -1,4 +1,4 @@
-package fr.afaucogney.android.fakear;
+package fr.afaucogney.android.fakearapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("fr.afaucogney.android.fakear.test", appContext.getPackageName());
+        assertEquals("fr.afaucogney.android.fakear", appContext.getPackageName());
     }
 }

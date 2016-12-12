@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "fr.afaucogney.android.fakear"
+        applicationId "fr.afaucogney.android.fakearapp"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
@@ -27,4 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     compile 'com.android.support:design:25.0.1'
     testCompile 'junit:junit:4.12'
+    compile project(path: ':fakear-lib')
 }
